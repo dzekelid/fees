@@ -33,7 +33,7 @@ apis:
   tags: Fees
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/fees/master/_listings/stripe/application-fees-fee-refunds-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/fees/master/_listings/stripe/application-fees-fee-refunds-id-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
