@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Application Fees Fee Refunds
+  description: By default, you can see the 10 most recent refunds stored directly
+    on the application fee object, but you can also retrieve details about a specific
+    refund stored on the application fee.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
