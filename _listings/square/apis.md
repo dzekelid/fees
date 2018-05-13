@@ -21,17 +21,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Delete Location Fees Fee
-  description: Deletes an existing fee (tax).
+- name: Square Connect API Put Location Items Item Fees Fee
+  description: Associates a fee with an item, meaning the fee is automatically applied
+    to the item in Square Register.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Fees
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/square/location-id-fees-fee-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/square/location-id-items-item-id-fees-fee-id-put.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/square/location-id-fees-fee-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/square/location-id-items-item-id-fees-fee-id-put-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
