@@ -34,15 +34,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-id-refunds-post.md
-- name: Stripe Add Application Fees  Refund
-  description: Post Application, Fees, , Refund
+- name: Stripe Get Application Fees  Refunds
+  description: You can see a list of the refunds belonging to a specific application
+    fee. Note that the 10 most recent refunds are always available by default on the
+    application fee object. If you need more than those 10, you can use this API method
+    and the limit and starting_after parameters to page through additional refunds.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Fees
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-id-refund-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-id-refunds-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-id-refunds-get-postman.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
