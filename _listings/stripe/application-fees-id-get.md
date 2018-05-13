@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Application Fees
+  description: Retrieves the details of an application fee that your account has collected.
+    The same information is returned when refunding the application fee.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
