@@ -34,19 +34,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-id-refunds-post.md
-- name: Stripe Get Application Fees
-  description: "Returns a list of application fees you\u2019ve previously collected.
-    The application fees are returned in sorted order, with the most recent fees appearing
-    first."
+- name: Stripe Get Application Fees Fee Refunds
+  description: By default, you can see the 10 most recent refunds stored directly
+    on the application fee object, but you can also retrieve details about a specific
+    refund stored on the application fee.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Fees
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-fee-refunds-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-fee-refunds-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
