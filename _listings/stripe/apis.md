@@ -34,18 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-id-refunds-post.md
-- name: Stripe Get Application Fees
-  description: Retrieves the details of an application fee that your account has collected.
-    The same information is returned when refunding the application fee.
+- name: Stripe Add Application Fees  Refund
+  description: Post Application, Fees, , Refund
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Fees
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fees/master/_listings/stripe/application-fees-id-refund-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
