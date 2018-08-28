@@ -2,7 +2,7 @@
   "info": {
     "name": "Stripe Get Application Fees",
     "_postman_id": "2d7653a0-d082-46eb-9c53-201b4d7532c5",
-    "description": "Returns a list of application fees you’ve previously collected. The application fees are returned in sorted order, with the most recent fees appearing first.",
+    "description": "Returns a list of application fees you???ve previously collected. The application fees are returned in sorted order, with the most recent fees appearing first.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -18,7 +18,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Returns a list of application fees you’ve previously collected"
+            "description": "Returns a list of application fees you???ve previously collected"
           },
           "response": [
             {

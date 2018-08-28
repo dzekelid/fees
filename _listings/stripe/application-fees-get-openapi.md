@@ -4,9 +4,9 @@ x-collection-name: Stripe
 x-complete: 0
 info:
   title: Stripe Get Application Fees
-  description: "Returns a list of application fees you\u2019ve previously collected.
-    The application fees are returned in sorted order, with the most recent fees appearing
-    first."
+  description: Returns a list of application fees you???ve previously collected. The
+    application fees are returned in sorted order, with the most recent fees appearing
+    first.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
@@ -25,9 +25,9 @@ paths:
   /application_fees:
     get:
       summary: Get Application Fees
-      description: "Returns a list of application fees you\u2019ve previously collected.
+      description: Returns a list of application fees you???ve previously collected.
         The application fees are returned in sorted order, with the most recent fees
-        appearing first."
+        appearing first.
       operationId: getApplicationFees
       x-api-path-slug: application-fees-get
       parameters:

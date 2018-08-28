@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Stripe
 x-complete: 1
@@ -23,9 +22,9 @@ paths:
   /application_fees:
     get:
       summary: Get Application Fees
-      description: "Returns a list of application fees you\u2019ve previously collected.
+      description: Returns a list of application fees you???ve previously collected.
         The application fees are returned in sorted order, with the most recent fees
-        appearing first."
+        appearing first.
       operationId: getApplicationFees
       x-api-path-slug: application-fees-get
       parameters:
@@ -482,4 +481,3 @@ paths:
       - Fees
       - ""
       - Refunds
----
